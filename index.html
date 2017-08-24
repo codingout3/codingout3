@@ -1,0 +1,184 @@
+<html >
+    <head lang="es">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <script src="jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <style>
+            .navbar-coding{
+                background-color: #222;/*#2196F3;/*#647687 --petroleo*/
+                border-bottom-color: 1px solid black;
+            }
+            .navbar-coding a{
+                color: #fff;
+            }
+            .navbar-brand img{
+                height: 40px;
+            }
+            .navbar-coding button{
+                color: #fff;
+            }
+            .conocenos{
+                background-color: aqua;
+                
+            }
+            .margen-inicio{
+                margin-top: 60px;
+            }
+            
+            .proyectos{
+                background-color: #2196F3;
+            }
+            .contactanos{
+                background-color: #eee;
+            }
+            .centrar{
+                align-content: center;
+                text-align: center;
+            }
+            .derecha{
+                text-align: right;
+            }
+            .izquierda{
+                text-align: left;
+            }
+            
+            .presentacio{
+                position: relative;
+                padding: 190px 50px; 
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-image: url(img/mesa1.jpg) ;
+                background-attachment: scroll;
+                background-size: cover;
+            }
+            
+            
+            
+            
+            /*INICIO*/
+            .presentacion{background-color: #2196F3;padding: 50px 20px;text-align: center;}
+            .presentacion img{width: 40%;}
+            .presentacion .inicio{padding-top: 10px;color: #fff;}
+            .presentacion h1{font-size: 40px;}
+            .presentacion h2{font-size: 20px;}
+            
+            @media (min-width:576px) {
+                .presentacion{padding: 90px 30px;}
+                .presentacion img{width: 100%;}
+                .presentacion .inicio{padding-top: 20px;}
+                .presentacion h1{font-size: 50px;}
+                .presentacion h2{font-size: 20px;}
+            }
+            @media (min-width:992px) {
+                .presentacion{padding: 130px 60px;}
+                .presentacion img{width: 100%;}
+                .presentacion .inicio{padding-top: 45px;}
+                .presentacion h1{font-size: 90px;}
+                .presentacion h2{padding-top: 10px;font-size: 30px;}
+            }
+            /*SERVICIO*/
+            section{text-align: center;padding-bottom: 50px;padding-top: 50px;}
+            @media (min-width:576px) {
+                section{padding-bottom: 100px;padding-top: 100px;}
+            }
+            @media (min-width:992px) {
+            
+            }
+            .servicios{
+                background-color: #fff;
+                color: #111;
+            }
+            .servicios h2{
+                margin: 0;
+                color: #2196F3;
+            }
+            .servicios i{
+                margin-top: 10px;
+                margin-bottom: 10px;
+                color: #7b4397;
+            }
+            .division{
+                border-color: #292b2c;
+                max-width: 200px;
+            }
+            
+            
+            
+            
+        </style>
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-coding">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="logo.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contactanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="presentacion margen-inicio">
+            <div class="row">
+                <div class="col-sm-5">
+                    <img src="img/responsive-devices.png">
+                </div>
+                <div class="col-sm-7 inicio">
+                    <h1 class="centrar">Coding Out</h1>
+                    <h2 class="centrar">Tu lo imaginas... Nosotros lo contruimos por ti.</h2>
+                </div>
+            </div>
+        </div>
+        <section class="servicios">
+            <div class="container">
+                <hr class="division">
+                <h2>NUESTROS SERVICIOS</h2>
+                <hr class="division">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <i class="fa fa-mobile fa-5x sr-icons" aria-hidden="true"></i>
+                        <h3>Diseños Responsive</h3>
+                        <p>Su pagina web visible en cualquier dispositivo</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <i class="fa fa-lightbulb-o fa-5x" aria-hidden="true"></i>
+                        <h3>Sistemas a Medida</h3>
+                        <p>Construimos su sistema deacuerdo a sus necesidad</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <i class="fa fa-tags  fa-5x" aria-hidden="true"></i>
+                        <h3>Modulos Instalables</h3>
+                        <p>Constrole inventarios, ventas y compras, con unos cuantos clicks</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contactanos">
+            <div class="container">
+            
+            </div>
+        </section>
+    </body>
+    
+</html>
